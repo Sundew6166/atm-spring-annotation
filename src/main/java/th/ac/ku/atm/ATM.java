@@ -14,6 +14,7 @@ public class ATM {
 	/**
 	 * Constructs an ATM for a bank.
 	 */
+
 	@Autowired
 	public ATM(Bank bank) {
 		this.bank = bank;

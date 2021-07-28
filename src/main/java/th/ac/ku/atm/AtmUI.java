@@ -8,6 +8,7 @@ import java.util.Scanner;
 /**
    A text-based simulation of an automatic teller machine.
  */
+
 @Component
 public class AtmUI {
 

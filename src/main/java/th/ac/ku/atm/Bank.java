@@ -9,6 +9,7 @@ import java.util.Map;
 /**
  * A bank contains customers with bank accounts.
  */
+
 @Component
 public class Bank {
 
@@ -19,6 +20,7 @@ public class Bank {
    /**
     * Constructs a bank with no customers.
     */
+
    @Autowired
    public Bank(@Value("${bankname}") String name, DataSource dataSource) {
       this.name = name;
